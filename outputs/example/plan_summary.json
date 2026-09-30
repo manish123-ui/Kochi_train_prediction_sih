@@ -1,0 +1,18 @@
+{
+  "mode": "ml_passthrough_baseline",
+  "optimized": false,
+  "kpis": {
+    "n_rows": 1500,
+    "n_service": 1039,
+    "n_standby": 461,
+    "service_fraction": 0.6926666666666667,
+    "total_planned_km": 568849.0,
+    "mean_km_per_service_train": 547.4966313763234,
+    "std_km_per_service_train": 79.31624145183648,
+    "n_dates": 60,
+    "service_trains_per_date_min": 13,
+    "service_trains_per_date_mean": 17.316666666666666,
+    "service_trains_per_date_max": 23
+  },
+  "n_violations": 0
+}

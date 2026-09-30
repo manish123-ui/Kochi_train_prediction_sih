@@ -1,0 +1,34 @@
+# Private / raw data: NEVER commit. data/sample/ (synthetic) is allowed.
+data/raw/
+data/private/
+*.csv
+!data/sample/*.csv
+!outputs/example/*.csv
+
+# Trained artifacts (recreate with the training commands)
+models/*
+!models/README.md
+*.pt
+*.pth
+*.joblib
+*.pkl
+
+# Run outputs (keep only outputs/example)
+outputs/latest/
+outputs/*
+!outputs/example/
+!outputs/example/**
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+
+# Secrets
+.env
+*.key
+credentials*.json
